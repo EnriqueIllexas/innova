@@ -1,0 +1,15 @@
+{
+  "name": "innovatech",
+  "version": "1.0.0",
+  "description": "Innova tech page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Enrique Illescas @2023\"",
+  "license": "MIT",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4"
+  }
+}
