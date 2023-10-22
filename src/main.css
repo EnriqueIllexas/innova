@@ -46,6 +46,7 @@ header{
 header.abajo{
     background: #282828;
     padding: 5px 0px;
+    border-bottom: 1px solid #7c7c7c;
 }
 .logo-class-nav{
     display: flex;
@@ -84,10 +85,12 @@ header ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5px;
 }
 
 header ul li{
     list-style: none;
+    width: 16%;
 }
 
 header ul li a{
@@ -115,6 +118,8 @@ header.abajo ul li a{
     font-weight: 700;
     text-decoration: none;
     text-align: center;
+    overflow: hidden;
+    text-overflow:ellipsis;  
 }
 
 .seccion-main{
